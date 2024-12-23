@@ -13,7 +13,7 @@ def download_model(url, save_path):
         f.write(response.content)
 
 # Download the model weights if not already present
-model_url = "https://github.com/Kratika-159/Smart-Speech-Analysis/blob/master/SER_by_NOR.pkl"
+model_url = "https://github.com/Kratika-159/Smart-Speech-Analysis/raw/master/SER_by_NOR.pkl"
 local_model= "SER_by_NOR.pkl"
 download_model(model_url, local_model)
 
